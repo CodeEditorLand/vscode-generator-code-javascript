@@ -2,21 +2,16 @@
   "name": "generator-code-javascript",
   "version": "0.1.2",
   "description": "Generator for JavaScript projects",
-  "files": [
-    "generators/app"
-  ],
+  "bugs": {
+    "url": "https://github.com/Microsoft/vscode-generator-code-javascript/issues"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Microsoft/vscode-generator-code-javascript.git"
   },
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Microsoft/vscode-generator-code-javascript/issues"
-  },
-  "keywords": [
-    "yeoman-generator",
-    "javascript",
-    "vscode"
+  "files": [
+    "generators/app"
   ],
   "dependencies": {
     "yeoman-generator": "^0.20.3",
@@ -26,8 +21,8 @@
     "typescript": "^2.1.0-dev.20160912"
   },
   "optionalDependencies": {
+    "@types/typescript": "*",
     "@types/yeoman-generator": "*",
-    "@types/yosay": "*",
-    "@types/typescript": "*"
+    "@types/yosay": "*"
   }
 }
