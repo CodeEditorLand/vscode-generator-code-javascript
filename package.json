@@ -1,33 +1,43 @@
 {
-  "name": "generator-code-javascript",
-  "version": "0.1.2",
-  "description": "Generator for JavaScript projects",
-  "files": [
-    "generators/app"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Microsoft/vscode-generator-code-javascript.git"
-  },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Microsoft/vscode-generator-code-javascript/issues"
-  },
-  "keywords": [
-    "yeoman-generator",
-    "javascript",
-    "vscode"
-  ],
-  "dependencies": {
-    "yeoman-generator": "7.1.1",
-    "yosay": "3.0.0"
-  },
-  "devDependencies": {
-    "typescript": "5.4.2"
-  },
-  "optionalDependencies": {
-    "@types/yeoman-generator": "*",
-    "@types/yosay": "*",
-    "@types/typescript": "*"
-  }
+	"name": "generator-code-javascript",
+	"version": "0.0.1",
+	"private": false,
+	"description": "Generator for JavaScript projects",
+	"homepage": "https://github.com/CodeEditorLand/Foundation#readme",
+	"bugs": {
+		"url": "https://github.com/CodeEditorLand/Foundation/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/CodeEditorLand/Foundation.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "Playform",
+		"email": "Hello@Playform.Cloud",
+		"url": "https://playform.cloud"
+	},
+	"type": "module",
+	"files": [
+		"generators/app"
+	],
+	"scripts": {
+		"prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'"
+	},
+	"dependencies": {
+		"yeoman-generator": "7.1.1",
+		"yosay": "3.0.0"
+	},
+	"devDependencies": {
+		"typescript": "5.4.2",
+		"typescript-esbuild": "latest"
+	},
+	"optionalDependencies": {
+		"@types/typescript": "*",
+		"@types/yeoman-generator": "*",
+		"@types/yosay": "*"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }
