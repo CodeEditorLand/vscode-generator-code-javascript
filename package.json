@@ -1,26 +1,6 @@
 {
 	"name": "generator-code-javascript",
-	"version": "0.0.1",
-	"private": false,
 	"description": "Generator for JavaScript projects",
-	"keywords": [
-		"land"
-	],
-	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandGeneratorCodeJavascript#readme",
-	"bugs": {
-		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandGeneratorCodeJavascript/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+HTTPS://github.com/CodeEditorLand/LandGeneratorCodeJavascript.git"
-	},
-	"license": "SEE LICENSE IN LICENSE",
-	"author": {
-		"name": "🛬 Land —",
-		"email": "Land@PlayForm.Cloud",
-		"url": "HTTPS://Land.PlayForm.Cloud"
-	},
-	"type": "module",
 	"files": [
 		"generators/app"
 	],
@@ -32,14 +12,10 @@
 		"yosay": "3.0.0"
 	},
 	"devDependencies": {
-		"@playform/build": "0.0.7",
-		"@playform/document": "0.0.6"
+		"@playform/build": "0.0.7"
 	},
 	"optionalDependencies": {
 		"@types/typescript": "*",
 		"@types/yosay": "*"
-	},
-	"publishConfig": {
-		"access": "public"
 	}
 }
