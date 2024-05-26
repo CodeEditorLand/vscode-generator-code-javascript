@@ -1,11 +1,8 @@
 {
-    "compilerOptions": {
-        "target": "es6",
-        "module": "commonjs",
-        "allowJs": true,
-        "lib": [
-            "es2015",
-            "es2015.collection"
-        ]
-    }
+	"compilerOptions": {
+		"target": "es6",
+		"module": "commonjs",
+		"allowJs": true,
+		"lib": ["es2015", "es2015.collection"]
+	}
 }
