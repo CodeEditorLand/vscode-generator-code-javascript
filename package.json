@@ -1,6 +1,6 @@
 {
 	"dependencies": {
-		"yosay": "^1.2.0"
+		"yosay": "1.2.0"
 	},
 	"description": "Generator for JavaScript projects",
 	"devDependencies": {},
