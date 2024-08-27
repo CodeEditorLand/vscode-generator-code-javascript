@@ -2,7 +2,7 @@
 
 Generator for JavaScript projects that used with VS Code.
 
-### Installation
+### 🚀 Installation
 
 Install Yeoman and this generator
 
