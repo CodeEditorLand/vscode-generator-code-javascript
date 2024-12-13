@@ -1,13 +1,13 @@
 {
-	"dependencies": {
-		"yosay": "3.0.0"
-	},
+	"name": "generator-code-javascript",
 	"description": "Generator for JavaScript projects",
-	"devDependencies": {},
 	"files": [
 		"generators/app"
 	],
-	"name": "generator-code-javascript",
+	"dependencies": {
+		"yosay": "3.0.0"
+	},
+	"devDependencies": {},
 	"optionalDependencies": {
 		"@types/typescript": "*",
 		"@types/yosay": "*"
